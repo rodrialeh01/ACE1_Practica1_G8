@@ -50,6 +50,7 @@ public class Arduino {
     
     public boolean enviarTexto(String texto) {
         try {
+            
             puertoSerie.getOutputStream().write(texto.getBytes());
             puertoSerie.getOutputStream().flush();
             return true;
