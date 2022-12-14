@@ -115,7 +115,7 @@ void loop() {
     case 'J':
       for (int col = 0; col < 16; col++) {
         for (int fila = 0; fila < 8; fila++) {
-          matrixled[col][fila] = K[col][fila];
+          matrixled[col][fila] = J[col][fila];
         }
       }
 
